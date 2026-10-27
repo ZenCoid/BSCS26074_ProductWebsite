@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Products Page</title>
+    <link rel="stylesheet" href="BSCS26074_style.css">
+</head>
+<body>
+    <nav>
+        <a href="BSCS26074_Home.html">Home</a> | 
+        <a href="BSCS26074_Products.html">Products</a> | 
+        <a href="BSCS26074_Contact.html">Contact</a>
+    </nav>
+
+    <main>
+        <h1>Products</h1>
+
+        <div class="product-item">
+            <img src="BSCS26074_image0.png" alt="Product 1" width="150"><br><br>
+            <h3>Product 1</h3>
+            <button onclick="checkAvailability('stock1')">Check Availability</button>
+            <p id="stock1"></p>
+        </div>
+
+        <div class="product-item">
+            <img src="BSCS26074_image1.png" alt="Product 2" width="150"><br><br>
+            <h3>Product 2</h3>
+            <button onclick="checkAvailability('stock2')">Check Availability</button>
+            <p id="stock2"></p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentYear"></span> All rights reserved.</p>
+    </footer>
+
+    <script src="BSCS26074_script.js"></script>
+</body>
+</html>

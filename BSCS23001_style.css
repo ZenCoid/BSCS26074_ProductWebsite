@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+nav {
+    background-color: #1e3c4c;
+    padding: 12px;
+    border-radius: 4px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+main {
+    margin-top: 20px;
+    background: white;
+    padding: 25px;
+    border-radius: 6px;
+}
+
+.product-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+}
